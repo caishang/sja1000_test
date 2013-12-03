@@ -8,8 +8,7 @@
 //读写寄存器
 #define REG_BASE_ADDR 0xA000 //寄存器基址
 xdata unsigned char *SJA_CS_Point = (xdata unsigned char *)REG_BASE_ADDR;
-//定义SJA_CS_Point为指向外部存储器的指针，
-通过指针访问SJA1000的寄存器
+//定义SJA_CS_Point为指向外部存储器的指针，通过指针访问SJA1000的寄存器
 
 
 //写SJA1000寄存器
