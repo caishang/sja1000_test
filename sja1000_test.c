@@ -16,7 +16,7 @@ void WriteSJAReg(unsigned char RegAddr,unsigned char Value)
 {
 	*(SJA_CS_Point+RegAddr) = Value;
 	return;
-	//通过指针向指定地址（SJA1000的寄存器）写入数据
+	//通过指针向指定地址（SJA1000的寄存器）写入数据,基址+变址
 }
 
 //读SJA1000寄存器
